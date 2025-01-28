@@ -6,6 +6,12 @@
   "license": "MIT",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "svelte": "./dist/index.js"
+    }
+  },
   "svelte": "./src/index.js",
   "scripts": {
     "build": "rollup -c",
