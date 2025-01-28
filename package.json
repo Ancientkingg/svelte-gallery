@@ -8,8 +8,7 @@
   "module": "./dist/index.mjs",
   "exports": {
     ".": {
-      "types": "./dist/index.d.ts",
-      "svelte": "./dist/index.js"
+      "svelte": "./src/index.js"
     }
   },
   "svelte": "./src/index.js",
