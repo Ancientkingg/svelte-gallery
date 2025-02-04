@@ -66,7 +66,7 @@
         style={imgStyle({ scaledHeight, scaledWidth, isLastInRow, isLastRow })}
       >
         <slot {index} {image}>
-          <svelte:component this={imageComponent} {...image} />
+          <svelte:component this={imageComponent} {scaledHeight} {scaledWidth} {...image} />
         </slot>
       </div>
     {/each}
